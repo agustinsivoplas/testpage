@@ -1,6 +1,12 @@
 <html lang="en">
   <body>
-    <h1 style="text-align:center;">Login Succeeded!!</h1>
-    <a href="https://bitscu.com?token=ABCDEFG1234567&state=success"><p style="text-align:center;font-size:32px">Continue</p></a>  
+    <h1 style="text-align:center;">Login Parameters</h1>
+    <form action="https://bitscu.com" method="GET">
+      <label for="token">Token:</label>
+      <input type="text" id="token" name="token"><br><br>
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state"><br><br>
+      <input type="submit" value="Continue">
+    </form>
   </body>
 </html>
